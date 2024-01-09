@@ -1,12 +1,19 @@
-import React  from 'react'
+import React, { useEffect }  from 'react'
+
+import { useDispatch } from 'react-redux';
+import { auth } from '../utils/firebase';
 import Browse from './Browse'
 import Login from './Login'
-import { createBrowserRouter } from 'react-router-dom'
+import { createBrowserRouter, useNavigate} from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
+
+// import { useNavigate } from 'react-router-dom';
+
+
+
 const Body = () => {
 
-
-     
+    
     const appRouter = createBrowserRouter([
      {
         path:"/",
@@ -18,6 +25,7 @@ const Body = () => {
      },
      ]);
 
+    
   return  (
   <div><RouterProvider router={appRouter}/> 
   </div>) ;
