@@ -1,0 +1,25 @@
+import React from 'react';
+import { useSelector } from 'react-redux';
+import useMovieTrailer from '../hooks/useMovieTrailer';
+
+const VideoBackground = (movieId) => {
+  // console.log("this is the ID "+movieId,movieId);
+  useMovieTrailer(movieId);
+  const trailerVideo = useSelector((appStore)=>appStore.movies?.trailerVideo);
+
+   
+
+  
+  
+  return (<div className='w-screen'>
+          <iframe 
+          className='w-screen aspect-video'
+          src={'https://www.youtube.com/embed/'+ trailerVideo?.key}
+            low="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+            >
+          </iframe>
+        </div>
+  )
+}
+
+export default VideoBackground
