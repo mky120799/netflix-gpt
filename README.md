@@ -35,8 +35,10 @@
 - Build Movie List
 - TMDB Image CDN URL
 - MADE Browser page amazing with Tailwind CSS
+- Made UI beautiful
 - Made four custome hooks to Fetch the API data 
 - Build Four more horizontal section
+
 
 
 

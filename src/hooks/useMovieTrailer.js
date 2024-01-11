@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const useMovieTrailer=(movieId)=>{
  
-    console.log(movieId);
+    // console.log(movieId);
     const dispatch = useDispatch();
     
   const getMovieVideo = async (movieId) =>{
@@ -18,11 +18,11 @@ const useMovieTrailer=(movieId)=>{
     const data = await fetch("https://api.themoviedb.org/3/movie/"+id+"/videos?language=en-US", API_OPTIONS);
     const json = await data.json();
 
-    console.log(json);
+    // console.log(json);
 
     const filterData = json.results.filter((video) => video.type === "Trailer");
     const trailer = filterData.length ? filterData[0] : json.results[0];
-    console.log(trailer);
+    // console.log(trailer);
     dispatch(addTrailerVideo(trailer));
     
 

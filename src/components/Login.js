@@ -29,7 +29,7 @@ const Login = () => {
 
     
     const handleButtonClick=()=>{     //// handle sign In and sign Up data
-        const message=checkValideData(email.current.value,password.current.value);
+        const message=checkValideData(email.current.value, password.current.value);
         setErrorMessage(message);
         if(message)return;
 
@@ -63,7 +63,7 @@ const Login = () => {
                   setErrorMessage(error.message);
                   // ...
                 });
-                console.log(user);
+                // console.log(user);
                 
                 // ...
               })
@@ -81,7 +81,7 @@ const Login = () => {
             .then((userCredential) => {
               // Signed in 
               const user = userCredential.user;
-              console.log(user)
+              // console.log(user)
               
               // ...
             })
