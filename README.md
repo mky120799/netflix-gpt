@@ -30,6 +30,14 @@
 - Update Store with Trailer Video Data
 - Embedded the Video and make it autoplay and mute
 - Tailwind class to Main Container look awesome
+- Build our next Scondary Container
+- Build Movie Cart
+- Build Movie List
+- TMDB Image CDN URL
+- MADE Browser page amazing with Tailwind CSS
+- Made four custome hooks to Fetch the API data 
+- Build Four more horizontal section
+
 
 
 ...
