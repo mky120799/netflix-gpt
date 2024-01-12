@@ -37,7 +37,15 @@
 - MADE Browser page amazing with Tailwind CSS
 - Made UI beautiful
 - Made four custome hooks to Fetch the API data 
-- Build Four more horizontal section
+   - useUpComingMovies
+   - useNowplayingMovies
+   - usePopularMovies
+- GPT Search Page
+- GPT Search Bar
+- Multi language feature in our app
+- Integrate GPT APIs (get OPEN AI key)
+
+
 
 
 
