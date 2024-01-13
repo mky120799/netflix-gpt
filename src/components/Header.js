@@ -68,17 +68,17 @@ const Header = () => {
         dispatch(changeLanguage(e.target.value))
      }
     return (
-    <div  className='absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between'>
-        <div className='w-44 '>
+    <div  className='absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex-col md:flex md:flex-row justify-between'>
+        <div className='w-44 mx-auto md:mx-0'>
              <img src={NETFLIX_LOGO}
               alt='image'>
              </img>
             </div>
-        {user && (  <div  className='p-4 flex'>
-             { showGptSearch && ( <select className='p-2 m-2 mr-10 bg-gray-800 border-white text-white' onChange={handleLanguageChange}>
+        {user && (  <div  className='p-4 flex justify-between'>
+             { showGptSearch && ( <select className='p-2 m-2 mr-10  bg-gray-800 border-white text-white' onChange={handleLanguageChange}>
 
                 {SUPPORTED_LANGUAGES.map((lang)=>(
-                  <option key={lang.identifier} value={lang.identifier}>{lang.name}</option>
+                  <option  key={lang.identifier} value={lang.identifier}>{lang.name}</option>
 
                 ))}
                 
@@ -90,7 +90,7 @@ const Header = () => {
               
               > { showGptSearch ?" Home Page" : "GPT search"} </button>
               <img className="w-12 h-12 mr-4"src={user?.photoURL} alt="User Image"></img>   
-               <button onClick={handleSignOut} className='font-bold text-white ml-2'>Sign Out</button>
+               <button onClick={handleSignOut} className='font-bold text-white ml-2 '>Sign Out</button>
                    </div>)
         } 
     </div>

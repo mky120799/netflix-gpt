@@ -6,7 +6,7 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZjA5NWQ2MGQ3NGQ0YmQwNWNmNDkyNDA1MDZmMDMyZCIsInN1YiI6IjY1OWQwYWJkMjMxNjhjMDIwNDdjMDRmZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.G0GEFifY0QNesDadOFQtvNx28Z_u2nhK9k1s-_T7Yj0'
+      Authorization: process.env.REACT_APP_TMDB_KEY,
     }
   };
   
@@ -19,3 +19,8 @@ export const API_OPTIONS = {
  {identifier:"spanish", name:"Spanish"}
 
 ]
+
+
+export const OPENAI_KEY2 = process.env.REACT_APP_OPENAI_KEY2;/// may be this key is expired
+export const OPENAI_KEY3 = process.env.REACT_APP_OPENAI_KEY3;///currently working on key 3
+
