@@ -44,6 +44,13 @@
 - GPT Search Bar
 - Multi language feature in our app
 - Integrate GPT APIs (get OPEN AI key)
+- GPT seach API call
+- fetched getMovieSuggestion from TMDB
+- created Movie List component to make suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+
 
 
 
