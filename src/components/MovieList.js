@@ -1,5 +1,6 @@
 import React from 'react'
 import MovieCard from './MovieCard'
+import Shimer from './Shimer.JS'
 const MovieList = ({title, movies}) => {
 
     // console.log(movies)
@@ -12,11 +13,10 @@ const MovieList = ({title, movies}) => {
     
     <div className='flex '>
 
-     {movies.map((movie)=> <MovieCard key={movie.id} posterpath={movie.poster_path}/>)}
+     {movies && movies.map((movie)=> <MovieCard key={movie.id} posterpath={movie.poster_path}/>) }
      </div>
      </div>
-
-  </div>
+    </div>
   )
 }
 

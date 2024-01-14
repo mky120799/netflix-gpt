@@ -21,6 +21,6 @@ export const API_OPTIONS = {
 ]
 
 
-export const OPENAI_KEY2 = process.env.REACT_APP_OPENAI_KEY2;/// may be this key is expired
-export const OPENAI_KEY3 = process.env.REACT_APP_OPENAI_KEY3;///currently working on key 3
+
+export const OPENAI_KEY4 = process.env.REACT_APP_OPENAI_KEY4;///currently working on key 4
 

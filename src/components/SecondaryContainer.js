@@ -4,10 +4,10 @@ import { useSelector } from 'react-redux'
 
 const SecondaryContainer = () => {
   const movie = useSelector(appStore=> appStore.movies);
-
-
+  // if(!movie) return <div><h1>shimmer</h1></div>
+  //  else
   return (
-    movie.nowPlayingMovies && ( <div className='bg-black'>
+    movie && ( <div className='bg-black'>
       <div className=' mt-0 md:-mt-68 relative z-20'>
      <MovieList title ={"Now Playing"} movies={movie.nowPlayingMovies}/>
      <MovieList title ={"Trending"} movies={movie.trendingMovies}/>
