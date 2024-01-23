@@ -25,12 +25,16 @@
 <div align="center"> <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/bJx1BJ4/Screenshot-202.png" alt='image' width='800'/></a> </div>
 <div >
 
+### :Mobile Phone View
+
+<div >
+
 <div  align="center"> 
-<a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/6B51vPw/sm-login.png" alt='image' width='80'/></a> 
- <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/7VsskgN/sm-home.png" alt='image' width='80'/></a>
- <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/vz59TKK/sm-movie-details.png" alt='image' width='80'/></a> 
- <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/DgQPRsY/sm-gpt-page.png" alt='image' width='80'/></a> 
- <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/L8Bmn2d/sm-user-about-page.png" alt='image' width='80'/></a>
+<a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/0sL4YB8/Screenshot-20240123-190814.jpg" alt='image' width='80'/></a> 
+ <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/k3FvV38/Screenshot-20240123-190836.jpg" alt='image' width='80'/></a>
+ <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/0fBVsC5/Screenshot-20240123-190843.jpg" alt='image' width='80'/></a> 
+ <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/xfFpDNz/Screenshot-20240123-190846.jpg" alt='image' width='80'/></a> 
+ <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/d0z7kRs/Screenshot-20240123-190933.jpg" alt='image' width='80'/></a>
 </div>
 
 
@@ -55,11 +59,13 @@
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`VITE_OPENAPI_KEY`
+`REACT_APP_OPENAI_KEY4`
 
-`VITE_TMDB_KEY`
+`REACT_APP_TMDB_KEY`
 
-`VITE_FIRE_BASE_API_KEY`
+
+
+
 
 ## :toolbox: Getting Started
 
