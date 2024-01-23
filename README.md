@@ -19,10 +19,10 @@
 
 ### :camera: Screenshots
 
-<div align="center"> <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/KFR5NRY/md-login.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/cwzNN6N/md-home.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/LvMTxw2/md-movie-lists.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://movies-gpt.netlify.app/"><img src="https://i.ibb.co/YNYTWB0/md-gptpage.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/QrGrY45/Screenshot-199.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/PMq4N0h/Screenshot-200.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/NVSzCGY/Screenshot-201.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://second-ai-flix.web.app/"><img src="https://i.ibb.co/bJx1BJ4/Screenshot-202.png" alt='image' width='800'/></a> </div>
 <div >
 
 <div  align="center"> 
